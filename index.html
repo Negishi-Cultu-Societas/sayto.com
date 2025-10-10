@@ -84,10 +84,10 @@
         }
 
         .status-title {
-            font-size: 20px;
+            font-size: 25px;
             color: #000;
             margin-bottom: 20px;
-            font-weight: 400;
+            font-weight: 700;
         }
 
         .speed-container {
@@ -233,6 +233,30 @@
             }
             .speed-unit {
                 font-size: 28px;
+            }
+        }
+
+        @media (max-width: 768px) and (orientation: landscape) {
+            .speed-number {
+                font-size: 80px;
+            }
+            .speed-unit {
+                font-size: 30px;
+            }
+            .logo-text {
+                font-size: 24px;
+            }
+            .status-title {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 480px) and (orientation: landscape) {
+            .speed-number {
+                font-size: 60px;
+            }
+            .speed-unit {
+                font-size: 20px;
             }
         }
     </style>
